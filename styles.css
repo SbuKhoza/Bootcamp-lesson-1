@@ -81,8 +81,60 @@ li {
   margin-right: 20px;
 }
 
-.paragraph1{
+.paragraph1 {
   display: flex;
   text-align: center;
   max-width: 1000px;
+}
+
+.my-video {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contme {
+  color: #702b2b;
+  text-align: center;
+  padding-top: 0px;
+}
+
+#contact-form {
+  margin: 20px 0;
+}
+
+#contact-form label {
+  display: block;
+  font-weight: bold;
+}
+
+#contact-form input,
+form#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#contact-form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.cont-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  background-color: #fdfbfb;
+  margin: 0;
+  padding-top: 0px;
 }

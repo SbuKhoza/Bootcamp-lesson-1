@@ -4,11 +4,72 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Contact</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="index.js"></script>
     
     </head>
 
-    <body>
+<body>
 
-        
-    </body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                <img src="assets/Malloya.png" alt="Logo" width="100" height="50">
+                </a>
+                
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <img src="assets/contact.png" alt="Sbu" width="100%">
+               
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="contme">Contact Me</h2>
+        <div class="cont-container">
+            <form id="contact-form" action="https://formspree.io/f/mkndkyoy" method="POST">
+                <label for="name">Name(s)</label>
+                <input type="text" id="name" name="name" required>
+                    
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname" required>
+                    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                    
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    
+</body>
+
+ <footer>
+    <div class="footer">
+        <p class="address">Address: Block 8 Thulani <br>36 street<br> Snakepark <br>Soweto <br>1863</p>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14316.114454160583!2d27.8262675!3d-26.2282598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a370271c9caf%3A0x681c783f9fd7672!2sMalloya%20Group!5e0!3m2!1sen!2sza!4v1713171409018!5m2!1sen!2sza" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <ul class="social-links">
+        <li><a href="https://www.twitter.com/yourusername"><img src="assets/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/sibusiso-khoza"><img src="assets/linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="https://www.github.com/sbukhoza"><img src="assets/github.png" alt="GitHub"></a></li>
+         </ul>
+        <p>Phone: 0780296288</p>
+    </div>
+</footer>
 </html>
